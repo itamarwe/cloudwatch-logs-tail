@@ -1,13 +1,17 @@
 {
-  "name": "cloudwatch-logs-tail",
+  "name": "cloudwatch-logs",
+  "bin": {"cloudwatch-logs": "index.js"},
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Itamar Weiss <weiss.itamar@gmail.com>",
+  "repository":{
+    "type": "git",
+    "url": "http://github.com/itamarwe/cloudwatch-logs-tail"
+  },
   "dependencies": {
     "aws-sdk": "^2.1.8",
     "commander": "^2.9.0"
